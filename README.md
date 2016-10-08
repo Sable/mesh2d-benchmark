@@ -5,4 +5,4 @@ and original license can be found in
 [implementation/matlab](implementation/matlab).
 
 The benchmark was packaged by Remi Bernard for the COMP 621 Program Analysis
-and Transformation at McGill University.
+and Transformation Course at McGill University.
