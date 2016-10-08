@@ -1,0 +1,39 @@
+{
+  "type": "implementation",
+  "short-name": "matlab",
+  "description": "MATLAB Benchmark based on MESH2D (unstructured 2D mesh generator)",
+  "language": "matlab",
+  "core-source-files": [
+    { "file": "./checkgeometry.m" },
+    { "file": "./circumcircle.m" },
+    { "file": "./connectivity.m" },
+    { "file": "./dist2poly.m" },
+    { "file": "./findedge.m" },
+    { "file": "./fixmesh.m" },
+    { "file": "./inpoly.m" },
+    { "file": "./mesh2d.m" },
+    { "file": "./meshfaces.m" },
+    { "file": "./meshpoly.m" },
+    { "file": "./mydelaunayn.m" },
+    { "file": "./mytsearch.m" },
+    { "file": "./quadtree.m" },
+    { "file": "./quality.m" },
+    { "file": "./refine.m" },
+    { "file": "./smoothmesh.m" },
+    { "file": "./tinterp.m" },
+    { "file": "./triarea.m" }
+  ],
+  "runner-source-file": {
+    "file": "./runner.m"
+  },
+  "runner-arguments": [
+    {
+      "expand": "/experiment/input-size"
+    }
+  ],
+  "compatibilities": [
+    "https://github.com/Sable/ostrich-matlab-concatenate-compiler.git",
+    "https://github.com/Sable/ostrich-matlab-environment.git",
+    "https://github.com/Sable/ostrich-octave-environment.git"
+  ]
+}
